@@ -25,4 +25,4 @@ class TestCooperationPageFeature(BaseTest):
         self.cooperation_page.enter_info_about_project(self.data.INFO_ABOUT_COMPANY)
         self.cooperation_page.checkbox_is_selected()
         self.cooperation_page.make_sure_submit_button_is_active()
-        # self.cooperation_page.make_screenshot()
+        self.cooperation_page.make_screenshot()
