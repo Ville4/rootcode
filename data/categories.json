@@ -6,13 +6,13 @@
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
         "name" : "Filling out the cooperation form with valid data",
-        "uid" : "1f335d61ba346a5f",
+        "uid" : "b57fce1850ff6efe",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1744793548504,
-          "stop" : 1744793561850,
-          "duration" : 13346
+          "start" : 1744794363402,
+          "stop" : 1744794375667,
+          "duration" : 12265
         },
         "flaky" : false,
         "newFailed" : false,
