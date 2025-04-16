@@ -2,6 +2,8 @@ from base.base_test import BaseTest
 from pages.cooperation_page import CooperationPage
 import allure
 import pytest
+from pages.home_page import HomePage
+
 
 @allure.feature("Cooperation page functionality")
 class TestCooperationPageFeature(BaseTest):
@@ -12,6 +14,7 @@ class TestCooperationPageFeature(BaseTest):
     def test_form_ready_to_submit(self):
 
         self.home_page.open()
+        self.cooperation_page.scroll_to_element(HomePage.COOPERATION_LINK)
         self.home_page.click_cooperation_link()
         self.cooperation_page.is_openned()
         self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)
