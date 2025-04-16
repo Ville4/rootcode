@@ -14,7 +14,6 @@ class TestCooperationPageFeature(BaseTest):
     def test_form_ready_to_submit(self):
 
         self.home_page.open()
-        self.cooperation_page.scroll_to_element(HomePage.COOPERATION_LINK)
         self.home_page.click_cooperation_link()
         self.cooperation_page.is_openned()
         self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)
@@ -25,4 +24,4 @@ class TestCooperationPageFeature(BaseTest):
         self.cooperation_page.enter_info_about_project(self.data.INFO_ABOUT_COMPANY)
         self.cooperation_page.checkbox_is_selected()
         self.cooperation_page.make_sure_submit_button_is_active()
-        self.cooperation_page.make_screenshot()
+        # self.cooperation_page.make_screenshot()
