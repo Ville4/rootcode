@@ -1,0 +1,261 @@
+{
+  "uid" : "c5ad7f29902838",
+  "name" : "Filling out the cooperation form with valid data",
+  "fullName" : "tests.test_cooperation_feature.TestCooperationPageFeature#test_form_ready_to_submit",
+  "historyId" : "952ae215ebdd80a107c6384fac040d6a",
+  "time" : {
+    "start" : 1744798483021,
+    "stop" : 1744798495078,
+    "duration" : 12057
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f06fcd7c080>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        self.home_page.open()\n>       self.home_page.click_cooperation_link()\n\ntests/test_cooperation_feature.py:17: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/home_page.py:15: in click_cooperation_link\n    self.wait.until(EC.presence_of_element_located(self.COOPERATION_LINK)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"0a40fde42d22b9786e1af712436c4a25\")>\nmethod = <function presence_of_element_located.<locals>._predicate at 0x7f06fc88bce0>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Wait until the method returns a value that is not False.\n    \n        Calls the method provided with the driver as an argument until the\n        return value does not evaluate to ``False``.\n    \n        Parameters:\n        -----------\n        method: callable(WebDriver)\n            - A callable object that takes a WebDriver instance as an argument.\n    \n        message: str\n            - Optional message for :exc:`TimeoutException`\n    \n        Return:\n        -------\n        object: T\n            - The result of the last call to `method`\n    \n        Raises:\n        -------\n        TimeoutException\n            - If 'method' does not return a truthy value within the WebDriverWait\n            object's timeout\n    \n        Example:\n        --------\n        >>> from selenium.webdriver.common.by import By\n        >>> from selenium.webdriver.support.ui import WebDriverWait\n        >>> from selenium.webdriver.support import expected_conditions as EC\n    \n        # Wait until an element is visible on the page\n        >>> wait = WebDriverWait(driver, 10)\n        >>> element = wait.until(EC.visibility_of_element_located((By.ID, \"exampleId\")))\n        >>> print(element.text)\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            if time.monotonic() > end_time:\n                break\n            time.sleep(self._poll)\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:146: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1744798483021,
+      "stop" : 1744798483021,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1744798482675,
+      "stop" : 1744798483020,
+      "duration" : 345
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f06fcd7c080>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        self.home_page.open()\n>       self.home_page.click_cooperation_link()\n\ntests/test_cooperation_feature.py:17: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/home_page.py:15: in click_cooperation_link\n    self.wait.until(EC.presence_of_element_located(self.COOPERATION_LINK)).click()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"0a40fde42d22b9786e1af712436c4a25\")>\nmethod = <function presence_of_element_located.<locals>._predicate at 0x7f06fc88bce0>\nmessage = ''\n\n    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = \"\") -> T:\n        \"\"\"Wait until the method returns a value that is not False.\n    \n        Calls the method provided with the driver as an argument until the\n        return value does not evaluate to ``False``.\n    \n        Parameters:\n        -----------\n        method: callable(WebDriver)\n            - A callable object that takes a WebDriver instance as an argument.\n    \n        message: str\n            - Optional message for :exc:`TimeoutException`\n    \n        Return:\n        -------\n        object: T\n            - The result of the last call to `method`\n    \n        Raises:\n        -------\n        TimeoutException\n            - If 'method' does not return a truthy value within the WebDriverWait\n            object's timeout\n    \n        Example:\n        --------\n        >>> from selenium.webdriver.common.by import By\n        >>> from selenium.webdriver.support.ui import WebDriverWait\n        >>> from selenium.webdriver.support import expected_conditions as EC\n    \n        # Wait until an element is visible on the page\n        >>> wait = WebDriverWait(driver, 10)\n        >>> element = wait.until(EC.visibility_of_element_located((By.ID, \"exampleId\")))\n        >>> print(element.text)\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.monotonic() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, \"screen\", None)\n                stacktrace = getattr(exc, \"stacktrace\", None)\n            if time.monotonic() > end_time:\n                break\n            time.sleep(self._poll)\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n../local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py:146: TimeoutException",
+    "steps" : [ {
+      "name" : "Open https://rootcode.ru page",
+      "time" : {
+        "start" : 1744798483021,
+        "stop" : 1744798484961,
+        "duration" : 1940
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on cooperation link",
+      "time" : {
+        "start" : 1744798484961,
+        "stop" : 1744798495077,
+        "duration" : 10116
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.12/site-packages/allure_commons/_allure.py\", line 202, in impl\n    return func(*a, **kw)\n           ^^^^^^^^^^^^^^\n  File \"/usr/workspace/pages/home_page.py\", line 15, in click_cooperation_link\n    self.wait.until(EC.presence_of_element_located(self.COOPERATION_LINK)).click()\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py\", line 146, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1744798495109,
+      "stop" : 1744798495197,
+      "duration" : 88
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "Cooperation page functionality"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_cooperation_feature"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCooperationPageFeature"
+  }, {
+    "name" : "host",
+    "value" : "d51965c9e20c"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_cooperation_feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 11,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "a444fc49d4c3dc7c",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744798279708,
+          "stop" : 1744798293505,
+          "duration" : 13797
+        }
+      }, {
+        "uid" : "736c5c4ef7bbea71",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797923489,
+          "stop" : 1744797935749,
+          "duration" : 12260
+        }
+      }, {
+        "uid" : "9319f38a57d702bd",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797516478,
+          "stop" : 1744797529288,
+          "duration" : 12810
+        }
+      }, {
+        "uid" : "5fc1d77e743ecf0a",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797133260,
+          "stop" : 1744797146084,
+          "duration" : 12824
+        }
+      }, {
+        "uid" : "b0f31e3e7c9eac6e",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744796702147,
+          "stop" : 1744796719980,
+          "duration" : 17833
+        }
+      }, {
+        "uid" : "64202f74e8afedc2",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744796144661,
+          "stop" : 1744796157554,
+          "duration" : 12893
+        }
+      }, {
+        "uid" : "8d7d90dd8429d106",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744795029741,
+          "stop" : 1744795042586,
+          "duration" : 12845
+        }
+      }, {
+        "uid" : "b57fce1850ff6efe",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744794363402,
+          "stop" : 1744794375667,
+          "duration" : 12265
+        }
+      }, {
+        "uid" : "1f335d61ba346a5f",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744793548504,
+          "stop" : 1744793561850,
+          "duration" : 13346
+        }
+      }, {
+        "uid" : "846dcefdcffd5ca7",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1744793178225,
+          "stop" : 1744793178225,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "c5ad7f29902838.json",
+  "parameterValues" : [ ]
+}

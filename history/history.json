@@ -2,13 +2,22 @@
   "952ae215ebdd80a107c6384fac040d6a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 10,
+      "broken" : 11,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "c5ad7f29902838",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1744798483021,
+        "stop" : 1744798495078,
+        "duration" : 12057
+      }
+    }, {
       "uid" : "a444fc49d4c3dc7c",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
