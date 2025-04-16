@@ -1,24 +1,24 @@
 {
-  "uid" : "ff5bd2f75fd7f1b6",
+  "uid" : "4cbdeb0b0d4b465b",
   "name" : "Filling out the cooperation form with valid data",
   "fullName" : "tests.test_cooperation_feature.TestCooperationPageFeature#test_form_ready_to_submit",
   "historyId" : "952ae215ebdd80a107c6384fac040d6a",
   "time" : {
-    "start" : 1744798795919,
-    "stop" : 1744798799343,
-    "duration" : 3424
+    "start" : 1744799554813,
+    "stop" : 1744799557872,
+    "duration" : 3059
   },
   "status" : "broken",
   "statusMessage" : "TypeError: 'NoneType' object is not iterable",
-  "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f5a8bc16db0>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        # self.home_page.open()\n        # self.home_page.click_cooperation_link()\n        self.cooperation_page.open()\n        self.cooperation_page.is_openned()\n        self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)\n>       self.cooperation_page.enter_name(self.data.NAME)\n\ntests/test_cooperation_feature.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/cooperation_page.py:22: in enter_name\n    self.wait.until(EC.element_to_be_clickable(self.NAME_FIELD)).send_keys(name)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:304: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:141: TypeError",
+  "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f8f0ba84e00>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        # self.home_page.open()\n        # self.home_page.click_cooperation_link()\n        self.cooperation_page.open()\n        self.cooperation_page.is_openned()\n        self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)\n>       self.cooperation_page.enter_name(self.data.NAME)\n\ntests/test_cooperation_feature.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/cooperation_page.py:22: in enter_name\n    self.wait.until(EC.element_to_be_clickable(self.NAME_FIELD)).send_keys(name)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:304: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:141: TypeError",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1744798795560,
-      "stop" : 1744798795919,
-      "duration" : 359
+      "start" : 1744799554417,
+      "stop" : 1744799554813,
+      "duration" : 396
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1744798795919,
-      "stop" : 1744798795919,
+      "start" : 1744799554813,
+      "stop" : 1744799554813,
       "duration" : 0
     },
     "status" : "passed",
@@ -47,13 +47,13 @@
   "testStage" : {
     "status" : "broken",
     "statusMessage" : "TypeError: 'NoneType' object is not iterable",
-    "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f5a8bc16db0>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        # self.home_page.open()\n        # self.home_page.click_cooperation_link()\n        self.cooperation_page.open()\n        self.cooperation_page.is_openned()\n        self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)\n>       self.cooperation_page.enter_name(self.data.NAME)\n\ntests/test_cooperation_feature.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/cooperation_page.py:22: in enter_name\n    self.wait.until(EC.element_to_be_clickable(self.NAME_FIELD)).send_keys(name)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:304: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:141: TypeError",
+    "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f8f0ba84e00>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        # self.home_page.open()\n        # self.home_page.click_cooperation_link()\n        self.cooperation_page.open()\n        self.cooperation_page.is_openned()\n        self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)\n>       self.cooperation_page.enter_name(self.data.NAME)\n\ntests/test_cooperation_feature.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/cooperation_page.py:22: in enter_name\n    self.wait.until(EC.element_to_be_clickable(self.NAME_FIELD)).send_keys(name)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:304: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:141: TypeError",
     "steps" : [ {
       "name" : "Open https://rootcode.ru/pricing page",
       "time" : {
-        "start" : 1744798795919,
-        "stop" : 1744798798299,
-        "duration" : 2380
+        "start" : 1744799554813,
+        "stop" : 1744799556822,
+        "duration" : 2009
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,8 +66,8 @@
     }, {
       "name" : "Page https://rootcode.ru/pricing is opened",
       "time" : {
-        "start" : 1744798798299,
-        "stop" : 1744798798302,
+        "start" : 1744799556822,
+        "stop" : 1744799556825,
         "duration" : 3
       },
       "status" : "passed",
@@ -79,11 +79,29 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
+      "name" : "Scroll to form",
+      "time" : {
+        "start" : 1744799556825,
+        "stop" : 1744799556839,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "('xpath', \"//input[@placeholder='Введите имя']\")"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
       "name" : "Name 'None' is entered",
       "time" : {
-        "start" : 1744798798313,
-        "stop" : 1744798799343,
-        "duration" : 1030
+        "start" : 1744799556839,
+        "stop" : 1744799557871,
+        "duration" : 1032
       },
       "status" : "broken",
       "statusMessage" : "TypeError: 'NoneType' object is not iterable\n",
@@ -98,7 +116,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 4,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : true
@@ -106,9 +124,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1744798799380,
-      "stop" : 1744798799466,
-      "duration" : 86
+      "start" : 1744799557910,
+      "stop" : 1744799557997,
+      "duration" : 87
     },
     "status" : "passed",
     "steps" : [ ],
@@ -120,11 +138,11 @@
     "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "Critical"
-  }, {
     "name" : "feature",
     "value" : "Cooperation page functionality"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -139,7 +157,7 @@
     "value" : "TestCooperationPageFeature"
   }, {
     "name" : "host",
-    "value" : "7507558f51c5"
+    "value" : "720fc3afb168"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -171,13 +189,22 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 12,
+        "broken" : 13,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 12
+        "total" : 13
       },
       "items" : [ {
+        "uid" : "ff5bd2f75fd7f1b6",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1744798795919,
+          "stop" : 1744798799343,
+          "duration" : 3424
+        }
+      }, {
         "uid" : "c5ad7f29902838",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -280,6 +307,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "ff5bd2f75fd7f1b6.json",
+  "source" : "4cbdeb0b0d4b465b.json",
   "parameterValues" : [ ]
 }
