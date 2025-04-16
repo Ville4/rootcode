@@ -1,12 +1,12 @@
 {
-  "uid" : "676ad5c9e6d4eb43",
+  "uid" : "d8dc318cc4da9441",
   "name" : "Filling out the cooperation form with valid data",
   "fullName" : "tests.test_cooperation_feature.TestCooperationPageFeature#test_form_ready_to_submit",
   "historyId" : "952ae215ebdd80a107c6384fac040d6a",
   "time" : {
-    "start" : 1744804343014,
-    "stop" : 1744804349769,
-    "duration" : 6755
+    "start" : 1744804840981,
+    "stop" : 1744804845663,
+    "duration" : 4682
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,102 +14,102 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1744804342594,
-      "stop" : 1744804343014,
-      "duration" : 420
+      "start" : 1744804840588,
+      "stop" : 1744804840980,
+      "duration" : 392
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1744804343014,
-      "stop" : 1744804343014,
+      "start" : 1744804840980,
+      "stop" : 1744804840980,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Open https://rootcode.ru page",
       "time" : {
-        "start" : 1744804343014,
-        "stop" : 1744804347136,
-        "duration" : 4122
+        "start" : 1744804840981,
+        "stop" : 1744804843052,
+        "duration" : 2071
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Click on cooperation link",
       "time" : {
-        "start" : 1744804347136,
-        "stop" : 1744804347221,
-        "duration" : 85
+        "start" : 1744804843052,
+        "stop" : 1744804843118,
+        "duration" : 66
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Open https://rootcode.ru/pricing page",
       "time" : {
-        "start" : 1744804347221,
-        "stop" : 1744804347736,
-        "duration" : 515
+        "start" : 1744804843118,
+        "stop" : 1744804843664,
+        "duration" : 546
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Page https://rootcode.ru/pricing is opened",
       "time" : {
-        "start" : 1744804347736,
-        "stop" : 1744804347758,
-        "duration" : 22
+        "start" : 1744804843664,
+        "stop" : 1744804843667,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Scroll to form",
       "time" : {
-        "start" : 1744804347758,
-        "stop" : 1744804347775,
-        "duration" : 17
+        "start" : 1744804843667,
+        "stop" : 1744804843680,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -118,144 +118,144 @@
         "name" : "locator",
         "value" : "('xpath', \"//input[@placeholder='Введите имя']\")"
       } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Name 'test' is entered",
       "time" : {
-        "start" : 1744804347775,
-        "stop" : 1744804348991,
-        "duration" : 1216
+        "start" : 1744804843680,
+        "stop" : 1744804844858,
+        "duration" : 1178
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Phone number '89999999999' is entered",
       "time" : {
-        "start" : 1744804348991,
-        "stop" : 1744804349147,
-        "duration" : 156
+        "start" : 1744804844858,
+        "stop" : 1744804845008,
+        "duration" : 150
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Email 'test@mail.ru' is entered",
       "time" : {
-        "start" : 1744804349147,
-        "stop" : 1744804349289,
-        "duration" : 142
+        "start" : 1744804845008,
+        "stop" : 1744804845159,
+        "duration" : 151
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Compony name 'test' is entered",
       "time" : {
-        "start" : 1744804349289,
-        "stop" : 1744804349405,
-        "duration" : 116
+        "start" : 1744804845160,
+        "stop" : 1744804845269,
+        "duration" : 109
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Info about project 'test info' is entered",
       "time" : {
-        "start" : 1744804349405,
-        "stop" : 1744804349515,
-        "duration" : 110
+        "start" : 1744804845269,
+        "stop" : 1744804845432,
+        "duration" : 163
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Check checkbox",
       "time" : {
-        "start" : 1744804349515,
-        "stop" : 1744804349560,
-        "duration" : 45
+        "start" : 1744804845433,
+        "stop" : 1744804845479,
+        "duration" : 46
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Check submit button",
       "time" : {
-        "start" : 1744804349560,
-        "stop" : 1744804349585,
-        "duration" : 25
+        "start" : 1744804845479,
+        "stop" : 1744804845506,
+        "duration" : 27
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "e63b06d5045484c6",
+      "uid" : "2b47dd944c48cd04",
       "name" : "Success",
-      "source" : "e63b06d5045484c6.png",
+      "source" : "2b47dd944c48cd04.png",
       "type" : "image/png",
-      "size" : 85899
+      "size" : 94114
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 12,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1744804349770,
-      "stop" : 1744804349855,
-      "duration" : 85
+      "start" : 1744804845663,
+      "stop" : 1744804845749,
+      "duration" : 86
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "severity",
@@ -277,7 +277,7 @@
     "value" : "TestCooperationPageFeature"
   }, {
     "name" : "host",
-    "value" : "9c72cb0a848e"
+    "value" : "4150017bb1d4"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -307,11 +307,19 @@
         "failed" : 0,
         "broken" : 15,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 17
+        "total" : 18
       },
       "items" : [ {
+        "uid" : "676ad5c9e6d4eb43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744804343014,
+          "stop" : 1744804349769,
+          "duration" : 6755
+        }
+      }, {
         "uid" : "9929be0abb81d832",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -458,6 +466,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "676ad5c9e6d4eb43.json",
+  "source" : "d8dc318cc4da9441.json",
   "parameterValues" : [ ]
 }
