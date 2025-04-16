@@ -24,6 +24,7 @@ class BasePage:
             attachment_type = AttachmentType.PNG
         )
 
+    @allure.step("Scroll to form")
     def scroll_to_element(self, locator):
         element = self.wait.until(EC.presence_of_element_located(locator))
         self.driver.execute_script("arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });", element)
