@@ -1,5 +1,22 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Cooperation page functionality",
+    "children" : [ {
+      "name" : "Filling out the cooperation form with valid data",
+      "uid" : "846dcefdcffd5ca7",
+      "parentUid" : "d3c73bfb76694f3b22d1a4fa960773ac",
+      "status" : "broken",
+      "time" : {
+        "start" : 1744793178225,
+        "stop" : 1744793178225,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d3c73bfb76694f3b22d1a4fa960773ac"
+  } ],
   "name" : "behaviors"
 }

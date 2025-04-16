@@ -1,5 +1,30 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_cooperation_feature",
+      "children" : [ {
+        "name" : "TestCooperationPageFeature",
+        "children" : [ {
+          "name" : "Filling out the cooperation form with valid data",
+          "uid" : "846dcefdcffd5ca7",
+          "parentUid" : "ca7f4876bff802967e0ba7407ae20da0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1744793178225,
+            "stop" : 1744793178225,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ca7f4876bff802967e0ba7407ae20da0"
+      } ],
+      "uid" : "2cf0e9d84022a332573221eb62a8df52"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
   "name" : "suites"
 }
