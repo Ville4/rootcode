@@ -13,8 +13,9 @@ class TestCooperationPageFeature(BaseTest):
     @pytest.mark.smoke
     def test_form_ready_to_submit(self):
 
-        self.home_page.open()
-        self.home_page.click_cooperation_link()
+        # self.home_page.open()
+        # self.home_page.click_cooperation_link()
+        self.cooperation_page.open()
         self.cooperation_page.is_openned()
         self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)
         self.cooperation_page.enter_name(self.data.NAME)
