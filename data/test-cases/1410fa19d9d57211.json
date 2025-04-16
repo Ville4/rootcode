@@ -1,24 +1,22 @@
 {
-  "uid" : "ebc4860720eb9248",
+  "uid" : "1410fa19d9d57211",
   "name" : "Filling out the cooperation form with valid data",
   "fullName" : "tests.test_cooperation_feature.TestCooperationPageFeature#test_form_ready_to_submit",
   "historyId" : "952ae215ebdd80a107c6384fac040d6a",
   "time" : {
-    "start" : 1744800481968,
-    "stop" : 1744800485730,
-    "duration" : 3762
+    "start" : 1744801897246,
+    "stop" : 1744801903057,
+    "duration" : 5811
   },
-  "status" : "broken",
-  "statusMessage" : "TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'",
-  "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f32866de1b0>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        # self.home_page.open()\n        # self.home_page.click_cooperation_link()\n        self.cooperation_page.open()\n        self.cooperation_page.is_openned()\n        self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)\n        self.cooperation_page.enter_name(self.data.NAME)\n        self.cooperation_page.enter_phone_number(self.data.PHONE_NUMBER)\n        self.cooperation_page.enter_email(self.data.EMAIL)\n        self.cooperation_page.enter_name_compony(self.data.COMPANY_NAME)\n        self.cooperation_page.enter_info_about_project(self.data.INFO_ABOUT_COMPANY)\n        self.cooperation_page.checkbox_is_selected()\n        self.cooperation_page.make_sure_submit_button_is_active()\n>       self.cooperation_page.make_screenshot()\nE       TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'\n\ntests/test_cooperation_feature.py:28: TypeError",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1744800481967,
-      "stop" : 1744800481967,
-      "duration" : 0
+      "start" : 1744801896840,
+      "stop" : 1744801897246,
+      "duration" : 406
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1744800481564,
-      "stop" : 1744800481967,
-      "duration" : 403
+      "start" : 1744801897246,
+      "stop" : 1744801897246,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,15 +43,43 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "status" : "broken",
-    "statusMessage" : "TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'",
-    "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f32866de1b0>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        # self.home_page.open()\n        # self.home_page.click_cooperation_link()\n        self.cooperation_page.open()\n        self.cooperation_page.is_openned()\n        self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)\n        self.cooperation_page.enter_name(self.data.NAME)\n        self.cooperation_page.enter_phone_number(self.data.PHONE_NUMBER)\n        self.cooperation_page.enter_email(self.data.EMAIL)\n        self.cooperation_page.enter_name_compony(self.data.COMPANY_NAME)\n        self.cooperation_page.enter_info_about_project(self.data.INFO_ABOUT_COMPANY)\n        self.cooperation_page.checkbox_is_selected()\n        self.cooperation_page.make_sure_submit_button_is_active()\n>       self.cooperation_page.make_screenshot()\nE       TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'\n\ntests/test_cooperation_feature.py:28: TypeError",
+    "status" : "passed",
     "steps" : [ {
+      "name" : "Open https://rootcode.ru page",
+      "time" : {
+        "start" : 1744801897246,
+        "stop" : 1744801899600,
+        "duration" : 2354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on cooperation link",
+      "time" : {
+        "start" : 1744801899600,
+        "stop" : 1744801900220,
+        "duration" : 620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
       "name" : "Open https://rootcode.ru/pricing page",
       "time" : {
-        "start" : 1744800481968,
-        "stop" : 1744800483951,
-        "duration" : 1983
+        "start" : 1744801900220,
+        "stop" : 1744801901063,
+        "duration" : 843
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,9 +92,9 @@
     }, {
       "name" : "Page https://rootcode.ru/pricing is opened",
       "time" : {
-        "start" : 1744800483951,
-        "stop" : 1744800483953,
-        "duration" : 2
+        "start" : 1744801901063,
+        "stop" : 1744801901080,
+        "duration" : 17
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,9 +107,9 @@
     }, {
       "name" : "Scroll to form",
       "time" : {
-        "start" : 1744800483954,
-        "stop" : 1744800483967,
-        "duration" : 13
+        "start" : 1744801901080,
+        "stop" : 1744801901094,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -99,9 +125,9 @@
     }, {
       "name" : "Name 'test' is entered",
       "time" : {
-        "start" : 1744800483967,
-        "stop" : 1744800485063,
-        "duration" : 1096
+        "start" : 1744801901094,
+        "stop" : 1744801902213,
+        "duration" : 1119
       },
       "status" : "passed",
       "steps" : [ ],
@@ -114,9 +140,9 @@
     }, {
       "name" : "Phone number '89999999999' is entered",
       "time" : {
-        "start" : 1744800485063,
-        "stop" : 1744800485287,
-        "duration" : 224
+        "start" : 1744801902213,
+        "stop" : 1744801902361,
+        "duration" : 148
       },
       "status" : "passed",
       "steps" : [ ],
@@ -129,9 +155,9 @@
     }, {
       "name" : "Email 'test@mail.ru' is entered",
       "time" : {
-        "start" : 1744800485287,
-        "stop" : 1744800485441,
-        "duration" : 154
+        "start" : 1744801902361,
+        "stop" : 1744801902509,
+        "duration" : 148
       },
       "status" : "passed",
       "steps" : [ ],
@@ -144,9 +170,9 @@
     }, {
       "name" : "Compony name 'test' is entered",
       "time" : {
-        "start" : 1744800485442,
-        "stop" : 1744800485542,
-        "duration" : 100
+        "start" : 1744801902509,
+        "stop" : 1744801902621,
+        "duration" : 112
       },
       "status" : "passed",
       "steps" : [ ],
@@ -159,9 +185,9 @@
     }, {
       "name" : "Info about project 'test info' is entered",
       "time" : {
-        "start" : 1744800485542,
-        "stop" : 1744800485650,
-        "duration" : 108
+        "start" : 1744801902621,
+        "stop" : 1744801902766,
+        "duration" : 145
       },
       "status" : "passed",
       "steps" : [ ],
@@ -174,8 +200,8 @@
     }, {
       "name" : "Check checkbox",
       "time" : {
-        "start" : 1744800485651,
-        "stop" : 1744800485703,
+        "start" : 1744801902766,
+        "stop" : 1744801902818,
         "duration" : 52
       },
       "status" : "passed",
@@ -189,9 +215,9 @@
     }, {
       "name" : "Check submit button",
       "time" : {
-        "start" : 1744800485703,
-        "stop" : 1744800485730,
-        "duration" : 27
+        "start" : 1744801902818,
+        "stop" : 1744801902849,
+        "duration" : 31
       },
       "status" : "passed",
       "steps" : [ ],
@@ -202,18 +228,24 @@
       "stepsCount" : 0,
       "hasContent" : false
     } ],
-    "attachments" : [ ],
+    "attachments" : [ {
+      "uid" : "cb214a97d38de7e3",
+      "name" : "Success",
+      "source" : "cb214a97d38de7e3.png",
+      "type" : "image/png",
+      "size" : 85818
+    } ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : true,
-    "stepsCount" : 10,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 12,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1744800485758,
-      "stop" : 1744800485843,
+      "start" : 1744801903058,
+      "stop" : 1744801903143,
       "duration" : 85
     },
     "status" : "passed",
@@ -245,7 +277,7 @@
     "value" : "TestCooperationPageFeature"
   }, {
     "name" : "host",
-    "value" : "ea10a4af99fc"
+    "value" : "6471d9e74237"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -269,21 +301,26 @@
   "extra" : {
     "severity" : "critical",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "history" : {
       "statistic" : {
         "failed" : 0,
         "broken" : 14,
         "skipped" : 0,
-        "passed" : 0,
+        "passed" : 1,
         "unknown" : 0,
-        "total" : 14
+        "total" : 15
       },
       "items" : [ {
+        "uid" : "ebc4860720eb9248",
+        "status" : "broken",
+        "statusDetails" : "TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'",
+        "time" : {
+          "start" : 1744800481968,
+          "stop" : 1744800485730,
+          "duration" : 3762
+        }
+      }, {
         "uid" : "4cbdeb0b0d4b465b",
         "status" : "broken",
         "statusDetails" : "TypeError: 'NoneType' object is not iterable",
@@ -404,6 +441,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "ebc4860720eb9248.json",
+  "source" : "1410fa19d9d57211.json",
   "parameterValues" : [ ]
 }

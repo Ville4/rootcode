@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 14,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "1410fa19d9d57211",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744801897246,
+        "stop" : 1744801903057,
+        "duration" : 5811
+      }
+    }, {
       "uid" : "ebc4860720eb9248",
       "status" : "broken",
       "statusDetails" : "TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'",

@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'",
-      "children" : [ {
-        "name" : "Filling out the cooperation form with valid data",
-        "uid" : "ebc4860720eb9248",
-        "parentUid" : "8d9b85b82876d4c7302047cdf8d5e87b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1744800481968,
-          "stop" : 1744800485730,
-          "duration" : 3762
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8d9b85b82876d4c7302047cdf8d5e87b"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

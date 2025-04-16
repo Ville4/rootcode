@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Wed Apr 16 10:48:01 GMT 2025","Wed Apr 16 10:48:05 GMT 2025","3762","tests","test_cooperation_feature","TestCooperationPageFeature","","","Filling out the cooperation form with valid data",""
+"passed","Wed Apr 16 11:11:37 GMT 2025","Wed Apr 16 11:11:43 GMT 2025","5811","tests","test_cooperation_feature","TestCooperationPageFeature","","","Filling out the cooperation form with valid data",""
