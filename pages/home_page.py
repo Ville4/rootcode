@@ -8,7 +8,7 @@ class HomePage(BasePage):
 
     PAGE_URL = Links.HOST
 
-    COOPERATION_LINK = ("xpath", "//div[@class='the-nav-menu flex flex-col justify-between desktop:flex-row desktop:items-center']//a[text()='Карьера']")
+    COOPERATION_LINK = ("xpath", "//ul[contains(@class, 'the-nav-menu__list')]")
 
     @allure.step("Click on cooperation link")
     def click_cooperation_link(self):
