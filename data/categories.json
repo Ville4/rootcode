@@ -3,22 +3,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "TypeError: 'NoneType' object is not iterable",
+      "name" : "TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'",
       "children" : [ {
         "name" : "Filling out the cooperation form with valid data",
-        "uid" : "4cbdeb0b0d4b465b",
-        "parentUid" : "5ae019e15b757cc14ae13e78aec51419",
+        "uid" : "ebc4860720eb9248",
+        "parentUid" : "8d9b85b82876d4c7302047cdf8d5e87b",
         "status" : "broken",
         "time" : {
-          "start" : 1744799554813,
-          "stop" : 1744799557872,
-          "duration" : 3059
+          "start" : 1744800481968,
+          "stop" : 1744800485730,
+          "duration" : 3762
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5ae019e15b757cc14ae13e78aec51419"
+      "uid" : "8d9b85b82876d4c7302047cdf8d5e87b"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

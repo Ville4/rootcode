@@ -2,13 +2,22 @@
   "952ae215ebdd80a107c6384fac040d6a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 13,
+      "broken" : 14,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "ebc4860720eb9248",
+      "status" : "broken",
+      "statusDetails" : "TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'",
+      "time" : {
+        "start" : 1744800481968,
+        "stop" : 1744800485730,
+        "duration" : 3762
+      }
+    }, {
       "uid" : "4cbdeb0b0d4b465b",
       "status" : "broken",
       "statusDetails" : "TypeError: 'NoneType' object is not iterable",

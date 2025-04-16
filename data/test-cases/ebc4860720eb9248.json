@@ -1,0 +1,409 @@
+{
+  "uid" : "ebc4860720eb9248",
+  "name" : "Filling out the cooperation form with valid data",
+  "fullName" : "tests.test_cooperation_feature.TestCooperationPageFeature#test_form_ready_to_submit",
+  "historyId" : "952ae215ebdd80a107c6384fac040d6a",
+  "time" : {
+    "start" : 1744800481968,
+    "stop" : 1744800485730,
+    "duration" : 3762
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'",
+  "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f32866de1b0>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        # self.home_page.open()\n        # self.home_page.click_cooperation_link()\n        self.cooperation_page.open()\n        self.cooperation_page.is_openned()\n        self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)\n        self.cooperation_page.enter_name(self.data.NAME)\n        self.cooperation_page.enter_phone_number(self.data.PHONE_NUMBER)\n        self.cooperation_page.enter_email(self.data.EMAIL)\n        self.cooperation_page.enter_name_compony(self.data.COMPANY_NAME)\n        self.cooperation_page.enter_info_about_project(self.data.INFO_ABOUT_COMPANY)\n        self.cooperation_page.checkbox_is_selected()\n        self.cooperation_page.make_sure_submit_button_is_active()\n>       self.cooperation_page.make_screenshot()\nE       TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'\n\ntests/test_cooperation_feature.py:28: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1744800481967,
+      "stop" : 1744800481967,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1744800481564,
+      "stop" : 1744800481967,
+      "duration" : 403
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'",
+    "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f32866de1b0>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        # self.home_page.open()\n        # self.home_page.click_cooperation_link()\n        self.cooperation_page.open()\n        self.cooperation_page.is_openned()\n        self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)\n        self.cooperation_page.enter_name(self.data.NAME)\n        self.cooperation_page.enter_phone_number(self.data.PHONE_NUMBER)\n        self.cooperation_page.enter_email(self.data.EMAIL)\n        self.cooperation_page.enter_name_compony(self.data.COMPANY_NAME)\n        self.cooperation_page.enter_info_about_project(self.data.INFO_ABOUT_COMPANY)\n        self.cooperation_page.checkbox_is_selected()\n        self.cooperation_page.make_sure_submit_button_is_active()\n>       self.cooperation_page.make_screenshot()\nE       TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'\n\ntests/test_cooperation_feature.py:28: TypeError",
+    "steps" : [ {
+      "name" : "Open https://rootcode.ru/pricing page",
+      "time" : {
+        "start" : 1744800481968,
+        "stop" : 1744800483951,
+        "duration" : 1983
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://rootcode.ru/pricing is opened",
+      "time" : {
+        "start" : 1744800483951,
+        "stop" : 1744800483953,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scroll to form",
+      "time" : {
+        "start" : 1744800483954,
+        "stop" : 1744800483967,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "('xpath', \"//input[@placeholder='Введите имя']\")"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Name 'test' is entered",
+      "time" : {
+        "start" : 1744800483967,
+        "stop" : 1744800485063,
+        "duration" : 1096
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Phone number '89999999999' is entered",
+      "time" : {
+        "start" : 1744800485063,
+        "stop" : 1744800485287,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Email 'test@mail.ru' is entered",
+      "time" : {
+        "start" : 1744800485287,
+        "stop" : 1744800485441,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Compony name 'test' is entered",
+      "time" : {
+        "start" : 1744800485442,
+        "stop" : 1744800485542,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Info about project 'test info' is entered",
+      "time" : {
+        "start" : 1744800485542,
+        "stop" : 1744800485650,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check checkbox",
+      "time" : {
+        "start" : 1744800485651,
+        "stop" : 1744800485703,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check submit button",
+      "time" : {
+        "start" : 1744800485703,
+        "stop" : 1744800485730,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1744800485758,
+      "stop" : 1744800485843,
+      "duration" : 85
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "Cooperation page functionality"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_cooperation_feature"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCooperationPageFeature"
+  }, {
+    "name" : "host",
+    "value" : "ea10a4af99fc"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_cooperation_feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 14,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "4cbdeb0b0d4b465b",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1744799554813,
+          "stop" : 1744799557872,
+          "duration" : 3059
+        }
+      }, {
+        "uid" : "ff5bd2f75fd7f1b6",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1744798795919,
+          "stop" : 1744798799343,
+          "duration" : 3424
+        }
+      }, {
+        "uid" : "c5ad7f29902838",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744798483021,
+          "stop" : 1744798495078,
+          "duration" : 12057
+        }
+      }, {
+        "uid" : "a444fc49d4c3dc7c",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744798279708,
+          "stop" : 1744798293505,
+          "duration" : 13797
+        }
+      }, {
+        "uid" : "736c5c4ef7bbea71",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797923489,
+          "stop" : 1744797935749,
+          "duration" : 12260
+        }
+      }, {
+        "uid" : "9319f38a57d702bd",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797516478,
+          "stop" : 1744797529288,
+          "duration" : 12810
+        }
+      }, {
+        "uid" : "5fc1d77e743ecf0a",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797133260,
+          "stop" : 1744797146084,
+          "duration" : 12824
+        }
+      }, {
+        "uid" : "b0f31e3e7c9eac6e",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744796702147,
+          "stop" : 1744796719980,
+          "duration" : 17833
+        }
+      }, {
+        "uid" : "64202f74e8afedc2",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744796144661,
+          "stop" : 1744796157554,
+          "duration" : 12893
+        }
+      }, {
+        "uid" : "8d7d90dd8429d106",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744795029741,
+          "stop" : 1744795042586,
+          "duration" : 12845
+        }
+      }, {
+        "uid" : "b57fce1850ff6efe",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744794363402,
+          "stop" : 1744794375667,
+          "duration" : 12265
+        }
+      }, {
+        "uid" : "1f335d61ba346a5f",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744793548504,
+          "stop" : 1744793561850,
+          "duration" : 13346
+        }
+      }, {
+        "uid" : "846dcefdcffd5ca7",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1744793178225,
+          "stop" : 1744793178225,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "ebc4860720eb9248.json",
+  "parameterValues" : [ ]
+}
