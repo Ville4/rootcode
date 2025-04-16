@@ -8,8 +8,11 @@ class HomePage(BasePage):
 
     PAGE_URL = Links.HOST
 
-    COOPERATION_LINK = ("xpath", "//ul[contains(@class, 'the-nav-menu__list')]")
+    NAVIGATION = ("xpath", "//div[contains(@class, 'the-nav-menu')]")
+    COOPERATION_LINK = ("xpath", "//div[contains(@class, 'the-nav-menu')]//a[text()='Сотрудничество']")
 
     @allure.step("Click on cooperation link")
     def click_cooperation_link(self):
-        self.wait.until(EC.element_to_be_clickable(self.COOPERATION_LINK)).click()
+        self.wait.until(EC.element_to_be_clickable(self.NAVIGATION))
+        cooperation_link = self.wait.until(EC.element_to_be_clickable(self.NAVIGATION))
+        cooperation_link.click()
