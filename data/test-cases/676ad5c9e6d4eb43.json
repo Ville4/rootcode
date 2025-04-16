@@ -1,0 +1,463 @@
+{
+  "uid" : "676ad5c9e6d4eb43",
+  "name" : "Filling out the cooperation form with valid data",
+  "fullName" : "tests.test_cooperation_feature.TestCooperationPageFeature#test_form_ready_to_submit",
+  "historyId" : "952ae215ebdd80a107c6384fac040d6a",
+  "time" : {
+    "start" : 1744804343014,
+    "stop" : 1744804349769,
+    "duration" : 6755
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1744804342594,
+      "stop" : 1744804343014,
+      "duration" : 420
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1744804343014,
+      "stop" : 1744804343014,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://rootcode.ru page",
+      "time" : {
+        "start" : 1744804343014,
+        "stop" : 1744804347136,
+        "duration" : 4122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on cooperation link",
+      "time" : {
+        "start" : 1744804347136,
+        "stop" : 1744804347221,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Open https://rootcode.ru/pricing page",
+      "time" : {
+        "start" : 1744804347221,
+        "stop" : 1744804347736,
+        "duration" : 515
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://rootcode.ru/pricing is opened",
+      "time" : {
+        "start" : 1744804347736,
+        "stop" : 1744804347758,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Scroll to form",
+      "time" : {
+        "start" : 1744804347758,
+        "stop" : 1744804347775,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "locator",
+        "value" : "('xpath', \"//input[@placeholder='Введите имя']\")"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Name 'test' is entered",
+      "time" : {
+        "start" : 1744804347775,
+        "stop" : 1744804348991,
+        "duration" : 1216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Phone number '89999999999' is entered",
+      "time" : {
+        "start" : 1744804348991,
+        "stop" : 1744804349147,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Email 'test@mail.ru' is entered",
+      "time" : {
+        "start" : 1744804349147,
+        "stop" : 1744804349289,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Compony name 'test' is entered",
+      "time" : {
+        "start" : 1744804349289,
+        "stop" : 1744804349405,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Info about project 'test info' is entered",
+      "time" : {
+        "start" : 1744804349405,
+        "stop" : 1744804349515,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check checkbox",
+      "time" : {
+        "start" : 1744804349515,
+        "stop" : 1744804349560,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check submit button",
+      "time" : {
+        "start" : 1744804349560,
+        "stop" : 1744804349585,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e63b06d5045484c6",
+      "name" : "Success",
+      "source" : "e63b06d5045484c6.png",
+      "type" : "image/png",
+      "size" : 85899
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 12,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1744804349770,
+      "stop" : 1744804349855,
+      "duration" : 85
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "Cooperation page functionality"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_cooperation_feature"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCooperationPageFeature"
+  }, {
+    "name" : "host",
+    "value" : "9c72cb0a848e"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_cooperation_feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 15,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "9929be0abb81d832",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744803736767,
+          "stop" : 1744803749048,
+          "duration" : 12281
+        }
+      }, {
+        "uid" : "1410fa19d9d57211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744801897246,
+          "stop" : 1744801903057,
+          "duration" : 5811
+        }
+      }, {
+        "uid" : "ebc4860720eb9248",
+        "status" : "broken",
+        "statusDetails" : "TypeError: BasePage.make_screenshot() missing 1 required positional argument: 'screenshot_name'",
+        "time" : {
+          "start" : 1744800481968,
+          "stop" : 1744800485730,
+          "duration" : 3762
+        }
+      }, {
+        "uid" : "4cbdeb0b0d4b465b",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1744799554813,
+          "stop" : 1744799557872,
+          "duration" : 3059
+        }
+      }, {
+        "uid" : "ff5bd2f75fd7f1b6",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+        "time" : {
+          "start" : 1744798795919,
+          "stop" : 1744798799343,
+          "duration" : 3424
+        }
+      }, {
+        "uid" : "c5ad7f29902838",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744798483021,
+          "stop" : 1744798495078,
+          "duration" : 12057
+        }
+      }, {
+        "uid" : "a444fc49d4c3dc7c",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744798279708,
+          "stop" : 1744798293505,
+          "duration" : 13797
+        }
+      }, {
+        "uid" : "736c5c4ef7bbea71",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797923489,
+          "stop" : 1744797935749,
+          "duration" : 12260
+        }
+      }, {
+        "uid" : "9319f38a57d702bd",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797516478,
+          "stop" : 1744797529288,
+          "duration" : 12810
+        }
+      }, {
+        "uid" : "5fc1d77e743ecf0a",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797133260,
+          "stop" : 1744797146084,
+          "duration" : 12824
+        }
+      }, {
+        "uid" : "b0f31e3e7c9eac6e",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744796702147,
+          "stop" : 1744796719980,
+          "duration" : 17833
+        }
+      }, {
+        "uid" : "64202f74e8afedc2",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744796144661,
+          "stop" : 1744796157554,
+          "duration" : 12893
+        }
+      }, {
+        "uid" : "8d7d90dd8429d106",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744795029741,
+          "stop" : 1744795042586,
+          "duration" : 12845
+        }
+      }, {
+        "uid" : "b57fce1850ff6efe",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744794363402,
+          "stop" : 1744794375667,
+          "duration" : 12265
+        }
+      }, {
+        "uid" : "1f335d61ba346a5f",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744793548504,
+          "stop" : 1744793561850,
+          "duration" : 13346
+        }
+      }, {
+        "uid" : "846dcefdcffd5ca7",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1744793178225,
+          "stop" : 1744793178225,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "676ad5c9e6d4eb43.json",
+  "parameterValues" : [ ]
+}
