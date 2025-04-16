@@ -1,26 +1,26 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "9f1bcfdb0387",
+    "name" : "7190e5fde6e9",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
         "name" : "Filling out the cooperation form with valid data",
-        "uid" : "846dcefdcffd5ca7",
-        "parentUid" : "23a8f883f1fa368a0d1286a5517a0456",
+        "uid" : "1f335d61ba346a5f",
+        "parentUid" : "9c4735ac99c7b2ff8f985af058e8908f",
         "status" : "broken",
         "time" : {
-          "start" : 1744793178225,
-          "stop" : 1744793178225,
-          "duration" : 0
+          "start" : 1744793548504,
+          "stop" : 1744793561850,
+          "duration" : 13346
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "23a8f883f1fa368a0d1286a5517a0456"
+      "uid" : "9c4735ac99c7b2ff8f985af058e8908f"
     } ],
-    "uid" : "6faddef29f245fa5d06ddadbc8fe00c5"
+    "uid" : "12d95f7e237fef94e82b1d4351eb8807"
   } ],
   "name" : "timeline"
 }
