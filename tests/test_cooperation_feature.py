@@ -1,7 +1,7 @@
 from base.base_test import BaseTest
 from pages.cooperation_page import CooperationPage
 import allure
-
+import pytest
 
 @allure.feature("Cooperation page functionality")
 class TestCooperationPageFeature(BaseTest):
