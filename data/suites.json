@@ -8,13 +8,13 @@
         "name" : "TestCooperationPageFeature",
         "children" : [ {
           "name" : "Filling out the cooperation form with valid data",
-          "uid" : "736c5c4ef7bbea71",
+          "uid" : "a444fc49d4c3dc7c",
           "parentUid" : "ca7f4876bff802967e0ba7407ae20da0",
           "status" : "broken",
           "time" : {
-            "start" : 1744797923489,
-            "stop" : 1744797935749,
-            "duration" : 12260
+            "start" : 1744798279708,
+            "stop" : 1744798293505,
+            "duration" : 13797
           },
           "flaky" : false,
           "newFailed" : false,
