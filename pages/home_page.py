@@ -12,4 +12,4 @@ class HomePage(BasePage):
 
     @allure.step("Click on cooperation link")
     def click_cooperation_link(self):
-        self.wait.until(EC.visibility_of_element_located(self.COOPERATION_LINK)).click()
+        self.wait.until(EC.presence_of_element_located(self.COOPERATION_LINK)).click()
