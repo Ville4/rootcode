@@ -1,10 +1,10 @@
 [ {
-  "uid" : "9319f38a57d702bd",
+  "uid" : "736c5c4ef7bbea71",
   "name" : "Filling out the cooperation form with valid data",
   "time" : {
-    "start" : 1744797516478,
-    "stop" : 1744797529288,
-    "duration" : 12810
+    "start" : 1744797923489,
+    "stop" : 1744797935749,
+    "duration" : 12260
   },
   "status" : "broken",
   "severity" : "critical"
