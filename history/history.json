@@ -2,13 +2,22 @@
   "952ae215ebdd80a107c6384fac040d6a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "ff5bd2f75fd7f1b6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not iterable",
+      "time" : {
+        "start" : 1744798795919,
+        "stop" : 1744798799343,
+        "duration" : 3424
+      }
+    }, {
       "uid" : "c5ad7f29902838",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",

@@ -1,0 +1,285 @@
+{
+  "uid" : "ff5bd2f75fd7f1b6",
+  "name" : "Filling out the cooperation form with valid data",
+  "fullName" : "tests.test_cooperation_feature.TestCooperationPageFeature#test_form_ready_to_submit",
+  "historyId" : "952ae215ebdd80a107c6384fac040d6a",
+  "time" : {
+    "start" : 1744798795919,
+    "stop" : 1744798799343,
+    "duration" : 3424
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not iterable",
+  "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f5a8bc16db0>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        # self.home_page.open()\n        # self.home_page.click_cooperation_link()\n        self.cooperation_page.open()\n        self.cooperation_page.is_openned()\n        self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)\n>       self.cooperation_page.enter_name(self.data.NAME)\n\ntests/test_cooperation_feature.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/cooperation_page.py:22: in enter_name\n    self.wait.until(EC.element_to_be_clickable(self.NAME_FIELD)).send_keys(name)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:304: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:141: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1744798795560,
+      "stop" : 1744798795919,
+      "duration" : 359
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1744798795919,
+      "stop" : 1744798795919,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object is not iterable",
+    "statusTrace" : "self = <test_cooperation_feature.TestCooperationPageFeature object at 0x7f5a8bc16db0>\n\n    @allure.title(\"Filling out the cooperation form with valid data\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.smoke\n    def test_form_ready_to_submit(self):\n    \n        # self.home_page.open()\n        # self.home_page.click_cooperation_link()\n        self.cooperation_page.open()\n        self.cooperation_page.is_openned()\n        self.cooperation_page.scroll_to_element(CooperationPage.NAME_FIELD)\n>       self.cooperation_page.enter_name(self.data.NAME)\n\ntests/test_cooperation_feature.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/cooperation_page.py:22: in enter_name\n    self.wait.until(EC.element_to_be_clickable(self.NAME_FIELD)).send_keys(name)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py:304: in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nvalue = (None,)\n\n    def keys_to_typing(value: Iterable[AnyKey]) -> List[str]:\n        \"\"\"Processes the values that will be typed in the element.\"\"\"\n        characters: List[str] = []\n        for val in value:\n            if isinstance(val, Keys):\n                # Todo: Does this even work?\n                characters.append(val)\n            elif isinstance(val, (int, float)):\n                characters.extend(str(val))\n            else:\n>               characters.extend(val)\nE               TypeError: 'NoneType' object is not iterable\n\n../local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py:141: TypeError",
+    "steps" : [ {
+      "name" : "Open https://rootcode.ru/pricing page",
+      "time" : {
+        "start" : 1744798795919,
+        "stop" : 1744798798299,
+        "duration" : 2380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Page https://rootcode.ru/pricing is opened",
+      "time" : {
+        "start" : 1744798798299,
+        "stop" : 1744798798302,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Name 'None' is entered",
+      "time" : {
+        "start" : 1744798798313,
+        "stop" : 1744798799343,
+        "duration" : 1030
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'NoneType' object is not iterable\n",
+      "statusTrace" : "  File \"/usr/workspace/pages/cooperation_page.py\", line 22, in enter_name\n    self.wait.until(EC.element_to_be_clickable(self.NAME_FIELD)).send_keys(name)\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py\", line 304, in send_keys\n    Command.SEND_KEYS_TO_ELEMENT, {\"text\": \"\".join(keys_to_typing(value)), \"value\": keys_to_typing(value)}\n                                                   ^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/common/utils.py\", line 141, in keys_to_typing\n    characters.extend(val)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1744798799380,
+      "stop" : 1744798799466,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "Cooperation page functionality"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_cooperation_feature"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCooperationPageFeature"
+  }, {
+    "name" : "host",
+    "value" : "7507558f51c5"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_cooperation_feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 12,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "c5ad7f29902838",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744798483021,
+          "stop" : 1744798495078,
+          "duration" : 12057
+        }
+      }, {
+        "uid" : "a444fc49d4c3dc7c",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744798279708,
+          "stop" : 1744798293505,
+          "duration" : 13797
+        }
+      }, {
+        "uid" : "736c5c4ef7bbea71",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797923489,
+          "stop" : 1744797935749,
+          "duration" : 12260
+        }
+      }, {
+        "uid" : "9319f38a57d702bd",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797516478,
+          "stop" : 1744797529288,
+          "duration" : 12810
+        }
+      }, {
+        "uid" : "5fc1d77e743ecf0a",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744797133260,
+          "stop" : 1744797146084,
+          "duration" : 12824
+        }
+      }, {
+        "uid" : "b0f31e3e7c9eac6e",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744796702147,
+          "stop" : 1744796719980,
+          "duration" : 17833
+        }
+      }, {
+        "uid" : "64202f74e8afedc2",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744796144661,
+          "stop" : 1744796157554,
+          "duration" : 12893
+        }
+      }, {
+        "uid" : "8d7d90dd8429d106",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744795029741,
+          "stop" : 1744795042586,
+          "duration" : 12845
+        }
+      }, {
+        "uid" : "b57fce1850ff6efe",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744794363402,
+          "stop" : 1744794375667,
+          "duration" : 12265
+        }
+      }, {
+        "uid" : "1f335d61ba346a5f",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1744793548504,
+          "stop" : 1744793561850,
+          "duration" : 13346
+        }
+      }, {
+        "uid" : "846dcefdcffd5ca7",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1744793178225,
+          "stop" : 1744793178225,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "ff5bd2f75fd7f1b6.json",
+  "parameterValues" : [ ]
+}
