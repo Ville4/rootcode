@@ -2,13 +2,22 @@
   "952ae215ebdd80a107c6384fac040d6a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 19,
+      "broken" : 20,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 22
+      "total" : 23
     },
     "items" : [ {
+      "uid" : "b215325c5099c1a3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1748594954471,
+        "stop" : 1748594966686,
+        "duration" : 12215
+      }
+    }, {
       "uid" : "34de4043b3330b2",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -175,15 +184,6 @@
         "start" : 1744795029741,
         "stop" : 1744795042586,
         "duration" : 12845
-      }
-    }, {
-      "uid" : "b57fce1850ff6efe",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-      "time" : {
-        "start" : 1744794363402,
-        "stop" : 1744794375667,
-        "duration" : 12265
       }
     } ]
   }
